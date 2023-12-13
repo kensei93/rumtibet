@@ -1,0 +1,266 @@
+*, body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+ }
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(img/Rectangle\ 1.png);
+    width: 100%;
+    height:985px ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.header__menu {
+    height:72px ;
+}
+
+.header__list {
+    display: inline-block;
+    margin-left: 212px; 
+}
+
+.header__logo-link {
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.header__list-li {
+    display: inline-block;
+    margin-left: 24px;   
+}
+
+.header__list-li:first-child {
+    margin-left: 0px;
+}
+
+.header__list-li:last-child {
+    margin-left: 35px;
+    padding: 12px 24px;
+    background-color: #1A3E3E;
+    border-radius: 4px;
+    
+}
+
+.header__list-a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.header__programma-zagolovok {
+    margin-top: 500px;
+    height: 150px;
+    margin-bottom: 82px;
+}
+
+.header__text {
+    color: #fff;
+    height: 150px;
+    font-size: 50px;
+    white-space: pre-wrap;
+    text-transform:uppercase;
+    font-family: "NEXT ART" , sans-serif;
+    font-weight: 700px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    
+}
+
+.header__programma {
+    background: rgba(255, 255, 255, 0.20);
+    height: 161px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 41px;
+}
+
+.header__programma {
+    padding: 40px 0px 69px 0;
+}
+
+.header__select , .header__button , .header__data {
+    height: 52px;
+    font-weight: 700;
+    padding: 16px;
+    color: #fff;
+    
+}
+
+.header__select , .header__data {
+    width: 270px;
+    border-radius: 8px;
+    border: 2px solid #b0b3b4;
+    background: rgba(255, 255, 255, 0.0);
+    
+}
+
+.header__button {
+ width: 213px;
+ border-radius: 4px;
+ border: none;
+ 
+}
+.header__button-a {
+    color: black;
+    text-decoration: none;
+}
+
+.header__data, .header__people, .header__button {
+    margin-left: 24px;
+}
+
+  .description-tour { 
+    margin-top: 100px ;
+    height: 526px;
+    margin-bottom: 100px;
+}
+.description-tour__foto {
+    display: inline-block;
+    background-image: url(img/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+}
+
+
+.description-tour__foto-house {
+    display: inline-block;
+    margin-left: 130px ;
+    margin-top: 126px;
+}  
+
+.description-tour__programma {
+    display: inline-block;
+    width: 580px;
+    height: 398px;
+    vertical-align:bottom;
+    margin-bottom: 75px;
+    margin-left: 100px;
+
+}
+
+.label-text {
+    display: block;
+    font-size: 24px;
+    color:#F2BE22;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.text-h3 {
+display: block;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%;
+color:#18121E;
+}
+
+.text-p {
+display: block;
+color: #18121E;
+font-size: 18px;
+font-weight: 600;
+line-height: 150%;
+}
+
+.text-h3, .text-p {
+    margin-bottom: 40px;
+}
+
+.description-tour__button {
+    width: 200px;
+    height: 52px;
+    background-color: #1A3E3E;
+    border-radius: 4px;
+}
+
+.description-tour__a {
+    text-decoration: none;
+    padding: 16px 36px;
+    font-size: 13px;
+    color: #FDFDFD;
+    letter-spacing: 0.192px;
+    font-weight: 600;
+}
+
+.description-price {
+    background-color: #F3F5F4;;   
+    height: 771px;   
+    margin-top: 80px;
+}
+
+.description-price__programma2 {
+    display: inline-block;
+    width: 580px;
+    height: 591px;
+    position: relative; 
+}
+
+.price-label {
+    color: #18121E;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.216px;
+    list-style: none; 
+    
+}
+
+.price-text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    list-style: none;
+    margin-bottom: 40px;
+
+}
+
+.description-price__foto {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 120px;
+}
+
+.description-price__foto-1 {
+    display: block;
+}
+
+.description-price__foto-2 {
+    display: block;
+}
+
+.description-price__foto-price {
+    display: block;
+}
+
+.description-price__block {
+    width: 514px;
+    margin-left: 70px;
+
+    
+}
+
+.img-absolute {
+    position: absolute;
+    left: 10px;
+}
+
+.img-absolute__top_1{
+    top: 230px;
+}
+
+.img-absolute__top_2 {
+    top: 335px;
+}
+
+.img-absolute__top_3 {
+ top: 435px
+}
+
