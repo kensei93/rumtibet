@@ -310,3 +310,147 @@ font-weight: 800;
 line-height: 120%;
 }
 
+.middle__pic {
+    margin-top: 40px;
+}
+
+.back-img {
+    width: 380px;
+    height: 500px;
+    display: inline-block;
+}
+
+.back-img__first {
+    background-image: url(img/фоновое\ изображение1.png);
+    margin-right: 15px;
+}
+
+.back-img__two {
+    background-image: url(img/фоновое\ изображение2.png);
+    margin-right: 15px;
+}
+
+.back-img__three {
+    background-image: url(img/фоновое\ изображение3.png);
+}
+
+.banner-img {
+display: inline-block;
+ margin-top:410px;
+ width: 380px;
+ height: 90px;
+ border-radius: 0px 0px 32px 32px;
+ background: rgba(255, 255, 255, 0.20);
+ backdrop-filter: blur(3px);  
+}
+
+.label-img {
+display: block;
+color: #FDFDFD;
+font-family: "Nunito Sans";
+font-size: 24px;
+font-weight: 700;
+line-height: 120%;
+text-align:center;
+margin-top:20px; 
+}
+
+.span-img {
+display: block;
+color: #FDFDFD;
+font-family: "Nunito Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+}
+
+.price-img {
+position: absolute;
+top: 25px;
+color: #FDFDFD;
+font-family: "Nunito Sans";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+border-radius: 4px;
+background: rgba(255, 255, 255, 0.30);
+width: 86px;
+height: 40px;
+padding: 8px 16px;
+
+
+}
+
+.banner-img-text {
+    display: inline-block;
+    width: 250px;
+    height: 47px;
+}
+
+
+.star-price-estimation {
+    width: 65px;
+    height: 32px;
+    border-radius: 4px 0px 0px 4px;
+    background: rgba(253, 253, 253, 0.40);
+    backdrop-filter: blur(2px);
+}
+
+.star-price-estimation__absol1 {
+    position: absolute;
+    top:-370px;
+    right: 0;
+}
+
+.star-price-estimation__absol2 {
+    position: absolute;
+    top:-370px;
+    right: 0;
+}
+
+.star-price-estimation__absol3 {
+    position: absolute;
+    top:-370px;
+    right: 0;
+
+}
+
+.star-estimation {
+color: #1A3E3E;
+font-family: "Nunito Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+vertical-align: 5px;
+
+}
+
+.star {
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+.star-estimation__number3 {
+    padding-left: 5px;
+}
+
+.middle__button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.middle__raiting {
+    border-radius: 4px;
+    background: #1A3E3E;
+    width: 244px;
+    height: 52px;
+    color: #FDFDFD;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.192px;
+    text-decoration: none;
+    padding: 16px 36px;
+}
