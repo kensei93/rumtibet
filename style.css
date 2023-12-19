@@ -271,6 +271,7 @@ line-height: 150%;
     height: 52px;
     border-radius: 4px;
     background: #1A3E3E; 
+    margin-top: 40px;
 }
 
 .description-price__a {
@@ -281,3 +282,31 @@ line-height: 150%;
     letter-spacing: 0.192px;
     text-decoration: none;
 }
+
+
+.middle {
+    margin-top: 80px;
+}
+.middle__text {
+    width: 540px;
+    height: 38px;
+    text-align: center;
+}
+.middle__label {
+color: #F2BE22;
+font-family: "Nunito Sans";
+font-size: 24px;
+font-weight: 400;
+line-height: 20px;
+display: block;
+}
+ 
+.middle__span {
+color: #18121E;
+text-align: center;
+font-family: "Nunito Sans";
+font-size: 32px;
+font-weight: 800;
+line-height: 120%;
+}
+
