@@ -570,3 +570,247 @@ text-decoration: none;
     height: 52px;
     padding: 16px 36px;
 }
+
+.email {
+  position: absolute;
+  width: 1180px;
+  height: 196px;
+  padding-top: 40px;
+  text-align: center;
+  border-radius: 6px;
+  background: #FDFDFD;
+  box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+   position: absolute; 
+   left: 50%; 
+   top: 50%; 
+   top:0;
+   transform: translate(-50%, -50%);
+}
+
+.email__text {
+    display: inline-block;
+    width: 380px;
+    height: 90px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.email__form {
+    display: inline-block;
+    width: 550px;
+    text-align: left;
+}
+
+.email__p {
+font-size: 26px;
+
+}
+.email__label {
+font-size: 18px;
+}
+
+.email__form-text {
+color: #18121E;
+font-family: "Nunito Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+margin-top: 8px;
+
+
+
+}
+
+.email__a {
+    color: #18121E;
+}
+
+.email__address {
+color: #18121E;
+font-family: "Nunito Sans";
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+display: block;
+
+}
+
+
+.email__input {
+    width: 280px;
+    height: 44px;
+    padding-left: 16px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.email__subscribe {
+color: #FDFDFD;
+font-family: "Nunito Sans";
+font-size: 16px;
+font-weight: 600;
+line-height: 20px; 
+letter-spacing: 0.192px;
+width: 240px;
+height: 44px;
+background-color: #1A3E3E;
+text-decoration: none;
+padding: 12px 24px;
+border-radius: 4px ;
+margin-left: 16px;
+}
+
+footer {
+    background-color: #1A3E3E;;
+     position: relative;
+    height: 587px;
+    top: 200px;  
+}
+
+.footer__contacts {
+    margin-top: 178px;
+}
+
+.footer__left {
+    display: inline-block;
+    text-align: left;
+    width: 456px;
+}
+
+.footer__center {
+    display: inline-block;
+}
+
+.footer__right {
+    display: inline-block;
+}
+
+.company-text-span {
+color: #F3F5F4;
+font-family: "Nunito Sans";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+
+}
+
+.company-text-p {
+color: #FDFDFD;
+font-family: "Nunito Sans";
+font-size: 14px;
+line-height: 18px;
+text-decoration: none;
+}
+.company-list {
+    list-style: none;
+    padding-top:16px;
+    text-align: left;
+}
+
+.company-list:first-child {
+  padding-top: 0;
+}
+
+.company-list::before {
+    content: url(img/Group.svg);
+    padding-right: 8px;
+} 
+
+.company-a {
+color: #FFF;
+font-family: "Nunito Sans";
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+text-decoration-line: underline;
+}
+
+.footer__left-p {
+    margin-top: 17px;
+}
+
+.footer__tel-mail {
+    margin-top: 80px;
+}
+
+.footer__img-left{
+    margin-top: 32px ;   
+}
+
+.company-img {
+    padding-left: 16px;
+}
+
+.company-img:first-child {
+    padding-left: 0;
+}
+
+.footer__center {
+    vertical-align: top;
+    margin-left: 46px;
+    width: 280px;
+
+}
+
+
+.footer__center-list {
+    margin-top: 20px;
+}
+
+.footer__right {
+    width: 280px ;
+    vertical-align: top;
+    margin-left: 100px;
+}
+
+.footer__text-span-center {
+    margin-right: 80px;
+}
+
+.footer__text-span-right {
+    margin-left: 30px;
+
+}
+ 
+.footer-bottom {
+    background-color: #18121E;
+    height: 66px;
+}
+
+.persone-data {
+color: #FFF;
+font-family: "Nunito Sans";
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+}
+
+.footer-bottom__span , .footer-bottom__a {
+    display: inline-block;
+}
+
+.footer-bottom__block {
+    padding-top: 24px;
+}
+
+.footer-bottom__a {
+    padding-left: 635px; 
+}
+
+
+@media(max-width:1200px) {
+
+}
+
+@media(max-width:1000px) {
+    
+}
+
+@media(max-width:768px) {
+    
+}
+
+@media(max-width:480px) {
+    
+}
